@@ -495,6 +495,8 @@ class App {
 
     this.sort = !this.sort;
     localStorage.setItem('workouts', JSON.stringify(this.workouts));
+
+    console.log('sialalalal');
   }
 }
 
